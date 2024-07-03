@@ -1,0 +1,41 @@
+.portifolio{
+    padding: 2em;
+}
+.portifolio h1, .portifolio h2, .portifolio p{
+    margin-bottom: 0.5em;
+}
+.portifolio h1{
+    background-color: #222;
+    color: #fb3;
+    padding:  0.4em;
+
+}
+.portifolio span{
+    font-weight: bold;
+}
+.details_container,
+.service_form_container{
+    border-bottom: 3px solid #ffffff7a;
+    margin-bottom: 1.2em;
+    padding-bottom: 1.2em;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.btn{
+    background-color: #222;
+    color: #fff;
+    padding: 0.5em 1em;
+    text-decoration:  none;
+    transition: 0.5s;
+    cursor: pointer;
+    max-height: 40px;
+    border: none;
+}
+.btn:hover{
+    color: #e77e06;
+}
+.project_info{
+    width: 100%;
+}

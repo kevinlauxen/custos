@@ -16,10 +16,9 @@ function Navbar(){
             
            <li className={styles.item}> <Link to="/"><img src={logo} alt="Main"/></Link></li>
            <li className={styles.item}> <Link exact to="/"> Home</Link></li>
-           <li className={styles.item}> <Link exact to="/contato"> Contato</Link></li>
            <li className={styles.item}> <Link exact to="/newproject">Novo Projeto</Link></li>
-           <li className={styles.item}> <Link exact to= "/company">Company</Link> </li>
            <li className={styles.item}> <Link exact to= "/projects">Projetos</Link> </li>
+           <li className={styles.item}> <Link exact to= "/company">Sobre</Link> </li>
         </ul>
           </Container>
 

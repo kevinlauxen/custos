@@ -1,4 +1,4 @@
-import { BrowserRouter as Router, Routes , Route , Link } from 'react-router-dom'
+import { BrowserRouter as Router, Routes , Route } from 'react-router-dom'
 
 import Home from './Components/pages/Home'
 import Company from './Components/pages/Company'
@@ -10,6 +10,7 @@ import Projects from './Components/pages/Projects'
 import Container from './Components/layout/Container'
 import Navbar from './Components/layout/Navbar'
 import Footer from './Components/layout/Footer'
+import Projeto from './Components/pages/Projeto'
 
 
 function App() {
@@ -23,11 +24,12 @@ function App() {
     <Routes>
         
       
-      <Route path="/" element={<Home />} />
+      <Route  exact path="/" element={<Home />} />
       <Route path="/contato" element={<Contato />} />
-      <Route exact path='/newproject' element={<NewProject />}/>
-      <Route exact path='/company' element={<Company />}/>
+      <Route  path='/newproject' element={<NewProject />}/>
+      <Route  path='/company' element={<Company />}/>
       <Route path="/projects" element={<Projects />} />
+      <Route  path="/projects/:id" element={<Projeto />} />
       
       </Routes>
       </Container>

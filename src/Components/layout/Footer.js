@@ -6,6 +6,7 @@ function Footer(){
 
 
 
+
     return(
         <footer className={styles.footer} >
             <ul className={styles.socialList}>
@@ -13,7 +14,7 @@ function Footer(){
                         <FaFacebook />
                     </li>
                     <li>
-                        <FaLinkedin />
+                    <a href='https://www.linkedin.com/in/kevin-lauxen-nogueira-568931164/'> <FaLinkedin /></a>
                     </li><li>
                         <FaInstagram />
                     </li>

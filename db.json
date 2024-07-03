@@ -1,170 +1,72 @@
 {
   "projects": [
     {
-      "id": "5cf8",
-      "name": "teste",
-      "budget": "1212",
-      "entrega": "1111-11-11",
-      "descricao": "sasasa",
-      "cost": 0,
-      "services": []
-    },
-    {
-      "id": "4aff",
-      "name": "PROJETO TAL",
-      "budget": "12212",
-      "entrega": "1998-11-21",
-      "descricao": "teste 1",
-      "cost": 0,
-      "services": []
-    },
-    {
-      "id": "ba1f",
-      "name": "Site3",
-      "budget": "25000",
-      "entrega": "2024-08-01",
-      "cost": 0,
-      "services": []
-    },
-    {
-      "id": "b399",
-      "name": "Site3",
-      "budget": "25000",
-      "entrega": "2024-08-01",
-      "cost": 0,
-      "services": [],
-      "descricao": "site almoxarifado",
+      "id": "7672",
+      "name": "GBO 1",
+      "budget": "21300",
+      "entrega": "31231-02-21",
+      "descricao": "12312121",
       "category": {
-        "id": "3",
-        "name": "Logistica"
-      }
+        "id": "5",
+        "name": "Planejamento"
+      },
+      "cost": 11611,
+      "services": [
+        {
+          "name": "Injeção",
+          "cost": "5000",
+          "description": "ir até a injeção",
+          "id": "c4cc7ac8-97f8-499b-bce5-6b72524dae62"
+        },
+        {
+          "name": "Reuniões",
+          "cost": "4631",
+          "description": "reunião",
+          "id": "63227186-9fb8-4cae-9ec2-8b84a3807e0d"
+        },
+        {
+          "name": "ferias",
+          "cost": "1980",
+          "description": "reunião",
+          "id": "c5a670ca-4f3c-44e9-9c26-3f1b477f2c25"
+        }
+      ]
     },
     {
-      "id": "7d69",
-      "name": "Site3",
-      "budget": "25000",
-      "entrega": "2024-08-01",
-      "cost": 0,
-      "services": [],
-      "descricao": "site almoxarifado",
+      "id": "38fd",
+      "name": "CABOS",
+      "budget": "50",
+      "entrega": "2024-07-16",
+      "descricao": "CABOS PARA TI",
       "category": {
-        "id": "3",
-        "name": "Logistica"
-      }
-    },
-    {
-      "id": "bc80",
-      "name": "Site3",
-      "budget": "25000",
-      "entrega": "2024-08-01",
-      "cost": 0,
-      "services": [],
-      "descricao": "site almoxarifado",
-      "category": {
-        "id": "3",
-        "name": "Logistica"
-      }
-    },
-    {
-      "id": "6f03",
-      "name": "Site3",
-      "budget": "25000",
-      "entrega": "2024-08-01",
-      "cost": 0,
-      "services": [],
-      "descricao": "site almoxarifado",
-      "category": {
-        "id": "3",
-        "name": "Logistica"
-      }
-    },
-    {
-      "id": "71d8",
-      "name": "Site3",
-      "budget": "25000",
-      "entrega": "2024-08-01",
-      "cost": 0,
-      "services": [],
-      "descricao": "site almoxarifado",
-      "category": {
-        "id": "3",
-        "name": "Logistica"
-      }
-    },
-    {
-      "id": "76d8",
-      "name": "Site",
-      "budget": "25000",
-      "entrega": "2024-08-01",
-      "cost": 0,
-      "services": [],
-      "descricao": "site almoxarifado",
-      "category": {
-        "id": "3",
-        "name": "Logistica"
-      }
-    },
-    {
-      "id": "3635",
-      "name": "Site",
-      "budget": "25000",
-      "entrega": "2024-08-01",
-      "cost": 0,
-      "services": [],
-      "descricao": "site almoxarifado",
-      "category": {
-        "id": "3",
-        "name": "Logistica"
-      }
-    },
-    {
-      "id": "c741",
-      "name": "Site",
-      "budget": "25000",
-      "entrega": "2024-08-01",
-      "cost": 0,
-      "services": [],
-      "descricao": "site almoxarifado",
-      "category": {
-        "id": "3",
-        "name": "Logistica"
-      }
-    },
-    {
-      "id": "cb3a",
-      "name": "Site",
-      "budget": "25000",
-      "entrega": "2024-08-01",
-      "cost": 0,
-      "services": [],
-      "descricao": "site almoxarifado",
-      "category": {
-        "id": "3",
-        "name": "Logistica"
-      }
-    },
-    {
-      "id": "88ad",
-      "name": "cabeamento",
-      "budget": "121221",
-      "entrega": "1212-02-21",
-      "descricao": "cabos",
-      "category": {
-        "id": "1",
-        "name": "infra"
+        "id": "2",
+        "name": "TI"
       },
       "cost": 0,
       "services": []
     },
     {
-      "id": "3e79",
-      "name": "teste novo",
-      "budget": "212121",
-      "entrega": "12121-12-12",
-      "descricao": "1212 1",
+      "id": "a664",
+      "name": "projeto teste",
+      "budget": "50000",
+      "entrega": "2024-11-21",
+      "descricao": "Projeto teste para preencher",
       "category": {
-        "id": "4",
-        "name": "Administração"
+        "id": "5",
+        "name": "Planejamento"
+      },
+      "cost": 0,
+      "services": []
+    },
+    {
+      "id": "d7b5",
+      "name": "injeção",
+      "budget": "14000",
+      "entrega": "2024-12-31",
+      "descricao": "finalizar o projeto ",
+      "category": {
+        "id": "3",
+        "name": "Logistica"
       },
       "cost": 0,
       "services": []
